@@ -1,0 +1,195 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#main {
+	width: 100%;
+	padding: 0;
+			background-image: url("img/bg.png");
+	background-repeat: repeat-x repeat-y;
+}
+
+.header {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+}
+#navbar {
+  overflow: hidden;
+  background-color: white;
+height: 60px;
+	position: sticky;
+	right: 0;
+	left: 0;
+	z-index: 1;
+}
+#navbar .left {
+	float: left;
+}
+#navbar .right {
+	float: right;
+}
+.content {
+  padding: 16px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+h1 {
+	font-family: phoreuscherokee, serif;
+	font-size: 24px;
+	font-weight: 600;
+	font-style: normal;
+	color: #AB0F00;
+	padding: 0;
+	margin: 0;
+}
+h2 {
+	font-family: poppins, sans-serif;
+	font-size: 50px;
+	letter-spacing: 10px;
+	text-align: center;
+	color: white;
+	font-weight: 500;
+	font-style: normal;
+	text-transform: uppercase;
+	z-index: 10;
+	opacity: .9;
+}
+h3 {
+	font-family: poppins, sans-serif;
+	font-size: 14px;
+	line-height: 0;
+	font-weight: 500;
+	font-style: normal;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	color: black;
+}
+p {
+	font-family: poppins, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 24px;
+}
+.first-character {
+	float: left;
+	font-size: 84px;
+	line-height: 64px;
+	padding-top: 4px;
+	padding-right: 8px;
+	padding-left: 3px;
+	font-family: phoreuscherokee, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #AB0F00;
+}
+.title {
+	background: white;
+	padding: 60px;
+	margin: 0 auto;
+	text-align: center;
+}
+.title h1 {
+	font-size: 35px;
+	letter-spacing: 8px;
+}
+#hero {
+	padding-top: 300px;
+	padding-bottom: 300px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.block {
+	background: white;
+	padding: 60px;
+	width: 820px;
+	margin: 0 auto;
+	text-align: justify;
+}
+#main .parallax-one {
+	padding-top: 300px;
+	padding-bottom: 300px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	background-image: url("img/appmock.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+#main .parallax-two {
+	padding-top: 300px;
+	padding-bottom: 300px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	background-image: url("img/schnitzel.jpeg");
+	background-attachment: fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#main .parallax-three {
+	padding-top: 300px;
+	padding-bottom: 300px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	background-image: url("img/rhubarb.jpeg");
+	background-attachment: fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+footer {
+	  background-color: white;
+  padding: 30px;
+  text-align: right;
+	margin-top: 100px;
+}
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 768px) {
+	#main .block {
+		padding: 40px;
+		width: 620px;
+	}
+}
+@media screen and (max-width: 767px) {
+	#main .block {
+		padding: 30px;
+		width: 420px;
+	}
+	#main h2 {
+		font-size: 30px;
+	}
+	#main .block {
+		padding: 30px;
+	}
+	#main .parallax-one, #main .parallax-two, #main .parallax-three {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+}
+@media screen and (max-width: 479px) {
+	#main .block {
+		padding: 30px 15px;
+		width: 290px;
+	}
+}
