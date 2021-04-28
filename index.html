@@ -12,48 +12,56 @@
 		<h1>Eat Hearty: Pennsylvania Dutch Recipes</h1>
 	</div>
 	<div class="right">
-		<a href="javascript:void(0)"><img src="img/icon.png"></a>
-		<a href="javascript:void(0)"><img src="img/icon.png"></a>
-		<a href="javascript:void(0)"><img src="img/icon.png"></a>
+		<a href="https://xd.adobe.com/view/f8c8cfed-fed9-47e1-8d2c-c6dc1c765f54-ad9b/?fullscreen" target="_blank"><img src="img/twitter.png" style="max-width:30px";></a>
+		<a href="https://xd.adobe.com/view/f8c8cfed-fed9-47e1-8d2c-c6dc1c765f54-ad9b/?fullscreen" target="_blank"><img src="img/facebook.png" style="max-width:30px";></a>
+		<a href="https://xd.adobe.com/view/f8c8cfed-fed9-47e1-8d2c-c6dc1c765f54-ad9b/?fullscreen" target="_blank"><img src="img/instagram.png" style="max-width:30px";></a>
 	</div>
 </div>
 <div id="main">
 	<section>
 		<div class="parallax-one">
-			<h2>Download now</h2>
-		</div>
-	</section>
-	<section>
-		<div class="block">
-			<p>Avaiable for iOs and Android.</p>
-			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-			<img src="img/"><img src="img/">
+			<h2 class="blue">Download now</h2>
+			<a href="https://xd.adobe.com/view/f8c8cfed-fed9-47e1-8d2c-c6dc1c765f54-ad9b/?fullscreen" target="_blank"><img class="center" src="img/appstore.svg" style="max-width: 175px;"></a>
+			<a href="https://xd.adobe.com/view/f8c8cfed-fed9-47e1-8d2c-c6dc1c765f54-ad9b/?fullscreen" target="_blank"><img class="center" src="img/google-badge.png" style="max-width: 200px;"></a>
 		</div>
 	</section>
 	<section>
 		<div class="parallax-two">
-			<h2>Wonderful Good PA Dutch Cookery</h2>
+			<h2 class="">Recipes for Everyone</h2>
 		</div>
 	</section>
 	<section>
 		<div class="block">
-			<p><span class="first-character">F</span>Food is abundant and appetites are hearty in the Pennsylvania Dutch country. The traditional dishes are relatively simple and unlike most regional cookery the ingredients are readily available. Best of all, no matter who makes the recipes, the results are wonderful good!</p>
-			<p class="">Pennsylvania Dutch cooking is truly a folk art requiring much intuitive knowledge, for recipes contained measurements such as “flour to stiffen,” “butter the size of a walnut,” and “large as an apple.” Many of the recipes have been made more exact and standardized providing us with a regional cookery we can all enjoy.</p>
+			<p><span class="first-character">W</span>hether you're here to find an old recipe you've been craving or to try something new, the highly visual recipe screens will have you wanting to try everything! We're confident that Eat Hearty will soon be your favorite recipe resource. We're always adding new recipes for you to try! Ours chefs love to test submissions from our users and we are constantly sourcing authentic dishes to add to our repertoire. You can trust that each and every recipe has been taste tested a time or two, or maybe even three when it came to the sweets!</p>
+			<img src="img/fastnachts-recipe.png" style="float:right;">
+			<h3 class="">Featured Recipe Preview</h3>
+			<h4 class="quote">Fastnachts</h4>
+			<p class="quote">Crispy fried yeast-risen doughnuts with dense, most middles—fasnachts are made with potatoes and other simple ingredients. They are served on Shrove Tuesday or Fasnacht Day, the day before Ash Wednesday. The term fasnacht is a combination of the verb fasten (to fast) and nacht (night). Fasnachts were traditionally prepared in an effort to empty the pantry of items such as sugar, lard, and butter before Lent.</p>
+			<p class="quote">Typically tossed in granulated or powdered sugar, nowadays you can find fasnachts with icing and fruit fillings similar to doughnuts. Traditionally, however, they were left plain. Often square in shape, meant to represent the four gospels of the Bible, round and triangular versions also exist.</p>
 		</div>
 	</section>
 	<section>
 		<div class="parallax-three">
-			<h2>Recipes for Everyone</h2>
+			<h2 class="">Wonderful Good Cookery</h2>
 		</div>
 	</section>
 	<section>
 		<div class="block">
-			<p><span class="first-character">W</span>hether you're here to find an old recipe you've been craving or to try something new, the highly visual recipe screens will have you wanting to try everything!</p>
-			<p>Eat Hearty will soon be your favorite recipe resource. Our app makes it easy to search for your old favorites or by ingredients available. Start a shopping list for any items you may be missing and favorite the recipe so you can find it later. You can filter out recipes if you have dietary restrictions such as gluten-free or vegetarian.</p>
+			<p><span class="first-character">F</span>Food is abundant and appetites are hearty in the Pennsylvania Dutch country. The traditional dishes are relatively simple and unlike most regional cookery the ingredients are readily available. PA Dutch cooking is truly a folk art requiring much intuitive knowledge, for recipes contained measurements such as “flour to stiffen,” “butter the size of a walnut,” and “large as an apple.” Many of the recipes have been made more exact and standardized providing us with a regional cookery we can all enjoy. Best of all, no matter who makes the recipes, the results are wonderful good!</p>
+			<p>This app was designed to bring traditional Pennsylvania Dutch cookery to people everywhere. Features include a visual menu that is organized by categories and can be filtered by dietary restrictions, level of difficulty, or time required. You can search by recipe names or ingredients, as well as keep a shopping list for items you're missing. Featured recipes include information about seasonally relevant cookery and you can save your favorites to easily access later.</p>
+		</div>
+	</section>
+	<section>
+		<div class="parallax-four">
 		</div>
 	</section>
 </div>
-<footer> 2021 Michelle Anita Ziegenfuss</footer>
+<button onclick="topFunction()" id="top-button" title="Back to top">&#9650;</button>
+<footer>
+	<ul><li>&#169; 2021 Michelle Anita Ziegenfuss</li>
+		<li class="italic">Apple App Store Badge and Apple Logo are trademarks of Apple Inc.</li>
+		<li class="italic">Google Play and the Google Play logo are trademarks of Google LLC.</li></ul>
+</footer>
 <script>
 window.onscroll = function() {myFunction()};
 
@@ -66,6 +74,25 @@ function myFunction() {
   } else {
     navbar.classList.remove("sticky");
   }
+}
+	//Get the button:
+mybutton = document.getElementById("top-button");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 </script>
 </body>
