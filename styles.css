@@ -59,7 +59,7 @@ h2 {
 	letter-spacing: 10px;
 	text-align: center;
 	color: white;
-	font-weight: 500;
+	font-weight: 600;
 	font-style: normal;
 	text-transform: uppercase;
 	z-index: 10;
@@ -71,7 +71,7 @@ h3 {
 	font-family: poppins, sans-serif;
 	font-size: 14px;
 	line-height: 0;
-	font-weight: 500;
+	font-weight: 600;
 	font-style: normal;
 	letter-spacing: 8px;
 	text-transform: uppercase;
@@ -160,12 +160,12 @@ li {
 }
 
 #main .parallax-one {
-	padding-top: 300px;
+	padding-top: 600px;
 	padding-bottom: 300px;
 	overflow: hidden;
 	position: relative;
 	width: 100%;
-	background-image: url("img/app-mock.jpg");
+	background-image: url("img/hero.png");
 	background-attachment: fixed;
 	background-size: cover;
 	-moz-background-size: cover;
